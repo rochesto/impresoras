@@ -8,16 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace impresoras.Properties {
+namespace impresoras {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.7.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+    public sealed partial class Settings1 : global::System.Configuration.ApplicationSettingsBase {
         
-        private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
+        private static Settings1 defaultInstance = ((Settings1)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings1())));
         
-        public static Settings Default {
+        public static Settings1 Default {
             get {
                 return defaultInstance;
             }
@@ -26,12 +26,12 @@ namespace impresoras.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("C:\\")]
-        public string ruta {
+        public string ubicacion {
             get {
-                return ((string)(this["ruta"]));
+                return ((string)(this["ubicacion"]));
             }
             set {
-                this["ruta"] = value;
+                this["ubicacion"] = value;
             }
         }
     }

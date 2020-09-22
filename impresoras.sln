@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "impresoras", "impresoras\impresoras.csproj", "{D8C6E091-AE7D-4F72-A4F3-505639B7C38C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F905AF20-A57F-469D-B762-E97CF58D9B29}"
-	ProjectSection(SolutionItems) = preProject
-		marcas.xml = marcas.xml
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
